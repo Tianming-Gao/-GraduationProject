@@ -16,4 +16,5 @@ class Global {
 
 bool Global::InitAllInstances() {
     NT = new NetWorker;
+    return true;
 }
